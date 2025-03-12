@@ -1,20 +1,20 @@
 # Dify Helm Chart
 
-[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)](https://github.com/borispolonsky/dify-helm/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/maskshell/dify-helm/total.svg)](https://github.com/maskshell/dify-helm/releases)
 
-Deploy [langgenius/dify](https://github.com/langgenius/dify), an LLM based chat bot app on kubernetes with helm chart.
+Deploy [langgenius/dify](https://github.com/langgenius/dify), an LLM-based chatbot app on Kubernetes with Helm chart.
 
 ## Installation
 
 ```bash
-helm repo add dify https://borispolonsky.github.io/dify-helm
+helm repo add dify https://maskshell.github.io/dify-helm
 helm repo update
 helm install my-dify-release dify/dify
 ```
 
-## Supported Component
+## Supported Components
 
-### Components that could be deployed on kubernetes in current version
+### Components that could be deployed on Kubernetes in the current version
 
 - [x] core (`api`, `worker`, `sandbox`)
 - [x] ssrf_proxy
@@ -47,4 +47,4 @@ helm install my-dify-release dify/dify
 
 ## Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=borispolonsky/dify-helm)](https://github.com/borispolonsky/dify-helm/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=maskshell/dify-helm)](https://github.com/maskshell/dify-helm/graphs/contributors)
