@@ -7,7 +7,7 @@ Deploy [langgenius/dify](https://github.com/langgenius/dify), an LLM based chat 
 ```
 helm repo add dify https://borispolonsky.github.io/dify-helm
 helm repo update
-helm install my-dify-release dify/dify
+helm install my-release dify/dify
 ```
 
 ## Supported Component 
@@ -32,6 +32,7 @@ helm install my-dify-release dify/dify
   - [x] Alibaba Cloud OSS
   - [x] Google Cloud Storage
   - [x] Tencent Cloud COS
+  - [x] Huawei Cloud OBS
 - External Vector DB:
   - [x] Weaviate
   - [x] Qdrant
